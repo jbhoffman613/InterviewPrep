@@ -19,7 +19,6 @@ public class DiffK {
       pairs.put(a.get(i) + b, i);
     }
 
-    System.out.println(pairs);
     for(int j = 0; j < a.size(); j++) {
       if(pairs.get(a.get(j)) != null && pairs.get(a.get(j)) != j) {
         return 1;

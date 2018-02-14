@@ -15,7 +15,7 @@ public class Pascal1 {
 
     for(int i = 0; i < a; i ++) {
       pascal.add(new ArrayList<Integer>());
-      for(int j = 0; j < i; j++) {
+      for(int j = 0; j <= i; j++) {
         if(pascal.size() > 1) {
           int toAdd1;
           int toAdd2;
